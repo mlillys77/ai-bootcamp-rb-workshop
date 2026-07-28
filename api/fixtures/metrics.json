@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "id": 1,  "team": "Phoenix",  "title": "Checkout redesign",        "status": "on-track", "storyPoints": 8,  "updatedAt": "2026-07-20" },
+    { "id": 2,  "team": "Phoenix",  "title": "Payment retries",          "status": "at-risk",  "storyPoints": 5,  "updatedAt": "2026-07-24" },
+    { "id": 3,  "team": "Falcon",   "title": "Search relevance v2",      "status": "on-track", "storyPoints": 13, "updatedAt": "2026-07-15" },
+    { "id": 4,  "team": "Falcon",   "title": "Index rebuild automation", "status": "blocked",  "storyPoints": 3,  "updatedAt": "2026-06-30" },
+    { "id": 5,  "team": "Orca",     "title": "Data export API",          "status": "done",     "storyPoints": 8,  "updatedAt": "2026-07-01" },
+    { "id": 6,  "team": "Orca",     "title": "Ingest pipeline alerts",   "status": "on-track", "storyPoints": 5,  "updatedAt": "2026-07-25" },
+    { "id": 7,  "team": "Lynx",     "title": "Mobile onboarding flow",   "status": "at-risk",  "storyPoints": 8,  "updatedAt": "2026-07-10" },
+    { "id": 8,  "team": "Lynx",     "title": "Push notification prefs",  "status": "on-track", "storyPoints": 2,  "updatedAt": "2026-07-22" },
+    { "id": 9,  "team": "Phoenix",  "title": "Accessibility audit fixes","status": "blocked",  "storyPoints": 5,  "updatedAt": "2026-05-28" },
+    { "id": 10, "team": "Orca",     "title": "CSV validation service",   "status": "on-track", "storyPoints": 3,  "updatedAt": "2026-07-26" }
+  ]
+}

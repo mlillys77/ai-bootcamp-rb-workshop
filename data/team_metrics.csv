@@ -1,0 +1,21 @@
+id,team,member,status,story_points,hours_logged,updated_at
+1,Phoenix,ana.k,on-track,8,12.5,2026-07-20
+2,Phoenix,marko.j,at-risk,5,,24/07/2026
+3,Falcon,ivana.p,On-Track,13,30,2026-07-15
+4,Falcon,stefan.m,blocked,3,4,June 30 2026
+5,Orca,jelena.d,done,8,22,2026-07-01
+6,Orca,nikola.b,on-track,5,9.5,2026-07-25
+7,Lynx,milica.s,AT-RISK,8,,10/07/2026
+8,Lynx,dusan.t,on-track,2,3,2026-07-22
+9,Phoenix,ana.k,blocked,5,15,2026-05-28
+10,Orca,tamara.v,on-track,3,6,2026-07-26
+5,Orca,jelena.d,done,8,22,2026-07-01
+11,Falcon,petar.r,on track,5,11,2026-07-18
+12,Lynx,,at-risk,3,7,2026-07-19
+13,Phoenix,marko.j,on-track,,8,2026-07-21
+14,Orca,nikola.b,Done,2,4,26.07.2026
+2,Phoenix,marko.j,at-risk,5,,24/07/2026
+15,Falcon,ivana.p,on-track,8,19,2026-07-23
+16,Lynx,milica.s,blocked,5,,
+17,Phoenix,sara.l,on-track,3,5.5,2026-07-24
+18,Orca,tamara.v,at-risk,13,28,July 25 2026
