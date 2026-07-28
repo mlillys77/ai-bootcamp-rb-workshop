@@ -1,14 +1,17 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "trackrelease": {
-      "type": "remote",
-      "url": "https://REPLACE-WITH-TR-MCP-ENDPOINT.bosch.com/mcp",
-      "headers": { "Authorization": "Bearer {env:TR_TOKEN}" },
-      "enabled": false
+    "bosch-jira": {
+      "type": "local",
+      "command": ["bosch-jira-mcp"],
+      "environment": {
+        "JIRA_BASE_URL": "https://rb-tracker.bosch.com/tracker01",
+        "JIRA_TOKEN": "{env:TR_TOKEN}"
+      },
+      "enabled": true
     }
   },
   "permission": {
-    "trackrelease_*": "ask"
+    "bosch-jira_*": "ask"
   }
 }
