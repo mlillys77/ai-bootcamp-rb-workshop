@@ -45,7 +45,7 @@ export default function App() {
       </section>
 
       <MetricsChart data={chartData} />
-      <TeamTable items={visible} />
+      <TeamTable items={visible} onResetFilter={() => setStatus('all')} />
     </main>
   );
 }

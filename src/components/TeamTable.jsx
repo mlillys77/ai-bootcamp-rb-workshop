@@ -1,7 +1,18 @@
 import React from 'react';
 import { formatDate } from '../utils/dates.js';
 
-export default function TeamTable({ items }) {
+export default function TeamTable({ items, onResetFilter }) {
+  if (items.length === 0) {
+    return (
+      <p className="empty-message">
+        No items match this filter.{' '}
+        <button className="reset-filter" onClick={onResetFilter}>
+          Show all items
+        </button>
+      </p>
+    );
+  }
+
   return (
     <table>
       <thead>
